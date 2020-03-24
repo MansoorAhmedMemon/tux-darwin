@@ -20,13 +20,16 @@ and select `tux-darwin`.
 Finally update your `initramfs` to see changes on reboot
 
     sudo update-initramfs -u
+Don't forget to update grub
+
+    sudo update-grub
     
 ### Uninstalling
 
     sudo update-alternatives --remove default.plymouth /usr/share/plymouth/themes/tux-darwin/tux-darwin.plymouth
     sudo rm -R /usr/share/plymouth/themes/tux-darwin
     sudo update-initramfs -u
-    
+    sudo update-grub
     
 ## Credits
 Copied from the copy darwin plymouth [with Ubuntu Logo]: https://github.com/ashutoshgngwr/ubuntu-darwin.git which is derived from the original darwin plymouth [with Apple Logo]: https://www.gnome-look.org/content/show.php/Darwin+Plymouth?content=170649
