@@ -33,3 +33,10 @@ Don't forget to update grub
     
 ## Credits
 Copied from the copy darwin plymouth [with Ubuntu Logo]: https://github.com/ashutoshgngwr/ubuntu-darwin.git which is derived from the original darwin plymouth [with Apple Logo]: https://www.gnome-look.org/content/show.php/Darwin+Plymouth?content=170649
+```
+<html>
+    <p>
+        Is this supported!
+    </p>
+    </html>
+```
